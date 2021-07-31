@@ -1,5 +1,12 @@
 # www
 About nanoservices
+Hastags:
+
+SOA Service Oriented Architecture
+Atomisationa
+Modularity
+
+
 
 # Differences
 
@@ -18,6 +25,8 @@ Code
 Monolith - Microservices - Nanoservices
 
 More Reusability from code side and business logic
+With microservices are coming microfrontends
+WIth nanoservices are comming nanofrontends
 
 
 
@@ -71,6 +80,7 @@ Avoid nanoservices if its use complicates the system that it’s meant to simpli
 
 https://www.bmc.com/blogs/microservice-vs-nanoservice
 
+# SOA
 
 SOA, or service-oriented architecture, defines a way to make software components reusable and interoperable via service interfaces. Services use common interface standards and an architectural pattern so they can be rapidly incorporated into new applications.  
 This removes tasks from the application developer who previously redeveloped or duplicated existing functionality or had to know how to connect or provide interoperability with existing functions.
@@ -84,3 +94,17 @@ SaaS applications (e.g., Salesforce CRM), or obtained as open source application
 The services are exposed using standard network protocols—such as SOAP (simple object access protocol)/HTTP or Restful HTTP (JSON/HTTP)—to send requests to read or change data. Service governance controls the lifecycle for development and at the appropriate stage the services are published in a registry that enables developers to quickly find them and reuse them to assemble new applications or business processes.
 
 
+## Benefits of SOA
+
+Compared to the architectures that preceded it, SOA offered significant benefits to the enterprise:
+
+### Greater business agility; 
+
+faster time to market: Reusability is key.  The efficiency of assembling applications from reusable services - i.e. building blocks, rather than rewriting and reintegrating with every new development project, enables developers to build applications much more quickly in response to new business opportunities. The service oriented architectural approach supports scenarios for application integration, data integration, and service orchestration style automation of business processes or workflows.  This speeds software design and software development by enabling developers to spend dramatically less time integrating and much more time focusing on delivering and improving their applications. 
+    
+### Ability to leverage legacy functionality in new markets: 
+A well-crafted SOA enables developers to easily take functionality ‘locked’ in one computing platform or environment and extend it to new environments and markets. For example, many companies have used SOA to expose functionality from mainframe-based financial systems to new web applications, enabling their customers to serve themselves to processes and information previously accessible only through direct interaction with the company’s employees or business partners.
+
+### Improved collaboration between business and IT: 
+
+In an SOA, services can be defined in business terms (e.g., ‘generate insurance quote’ or ‘calculate capital equipment ROI’). This enables business analysts to work more effectively with developers on important insights—such as the scope of a business process defined using services or the business implications of changing a process—that can lead to a better result.
