@@ -1,7 +1,21 @@
 # www
 About nanoservices
 
-What are nanoservices?
+# Differneces
+
+Theory
+https://wisdomplexus.com/blogs/nanoservices-vs-microservices/
+
+Architecture
+https://vmblog.com/archive/2020/02/25/an-introduction-to-serverless-architecture.aspx
+
+
+Code
+
+
+
+
+## What are nanoservices?
 The basic difference between the two frameworks is that nanoservices are considered smaller siblings of microservices. Nanoservices are designed to perform a single function, whose output is exposed through a specific API endpoint (command).
 Nanoservices are fully discoverable among each other. Each one can link with other services to perform additional actions and extend functionality.
 By design, nanoservices are:
