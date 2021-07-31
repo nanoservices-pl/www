@@ -108,3 +108,19 @@ A well-crafted SOA enables developers to easily take functionality ‘locked’ 
 ### Improved collaboration between business and IT: 
 
 In an SOA, services can be defined in business terms (e.g., ‘generate insurance quote’ or ‘calculate capital equipment ROI’). This enables business analysts to work more effectively with developers on important insights—such as the scope of a business process defined using services or the business implications of changing a process—that can lead to a better result.
+
+
+### SOA and microservices
+
+SOA vs. microservices
+
+Experts have filled a few thousand print and digital pages comparing SOA and microservices, and defining the subtleties of their relationship to one another. For the purposes of this article, the chief differences between the two are the coupling of components and scope of use:
+
+    SOA is an integration architectural style and an enterprise-wide concept. It enables existing applications to be exposed over loosely-coupled interfaces, each corresponding to a business function, that enables applications in one part of an extended enterprise to reuse functionality in other applications.
+    Microservices architecture is an application architectural style and an application-scoped concept. It enables the internals of a single application to be broken up into small pieces that can be independently changed, scaled, and administered. It does not define how applications talk to one another—for that we are back to the enterprise scope of the service interfaces provided by SOA.
+
+Microservices architecture emerged and gained steam with the rises of virtualization, cloud computing, Agile development practices, and DevOps. Most of the advantages of microservices in these contexts arise from the decoupling of the components, which simplifies and improves the following:
+
+    Developer agility and productivity: Microservices enable developers to incorporate new technologies to one part of the application without affecting the rest of the application. Any component can be modified, tested, and deployed independently of the others, which speeds iteration cycles.
+    Scalability: Microservices can take maximum advantage of cloud scalability—any component can be scaled independently of the others for the fastest possible response to workload demands and the most efficient use of computing resources.
+    Resilience: Again, thanks to decoupling, the failure of one microservice does not impact the others. And each microservice can perform to its own availability requirements without staking the other components or the entire application to greatest common availability requirements.
