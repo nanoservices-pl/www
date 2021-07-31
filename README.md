@@ -1,7 +1,7 @@
 # www
 About nanoservices
 
-# Differneces
+# Differences
 
 Theory
 https://wisdomplexus.com/blogs/nanoservices-vs-microservices/
@@ -13,6 +13,23 @@ https://vmblog.com/archive/2020/02/25/an-introduction-to-serverless-architecture
 Code
 
 
+## The way of development
+
+Monolith - Microservices - Nanoservices
+
+More Reusability from code side and business logic
+
+
+
+
+## The Difference Between APIs and Microservices
+https://www.scalyr.com/blog/api-vs-microservices/
+
+Here are the main differences between APIs and microservices:
+
+    An API is a contract that provides guidance for a consumer to use the underlying service.
+    A microservice is an architectural design that separates portions of a (usually monolithic) application into small, self-containing services.
+    
 
 
 ## What are nanoservices?
