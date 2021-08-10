@@ -1,5 +1,5 @@
 
-![1/cover.png](1/cover.png)
+![1/cover.png](https://logo.nanoservices.pl/1/cover.png)
 
 [About nanoservices](https://www.nanoservices.pl/)
 
