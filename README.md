@@ -11,27 +11,13 @@
 
 ## What are nanoservices?
 
-As a result, there are conflicting schools of thought around how and when to use microservices.
-First, the mere nature of nanoservices poses the question as to whether they are secured from attack vectors when used extensively in an application.
-Some also consider nanoservices to be an anti-pattern due to their fragmented functionality. This is known to cause maintenance overhead to exceed the value of the framework’s benefits.
-
-Certain use cases highlight that, without thorough due-diligence and efficient planning, random expansion of services may end up making the framework as big and cumbersome as a monolithic architecture.
-
-
-## Simplify
-
 While they are smaller, flexible, more isolated, and functionally focused, there are still unknowns on:
 + Compatibility with emerging tech
 + Exponential scaling
-+ nanoservices are designed to perform a single function, whose output is exposed through a specific API endpoint (command).
-+ nanoservices are considered smaller siblings of microservices. 
++ Nanoservices are designed to perform a single function, whose output is exposed through a specific API endpoint (command).
++ Nanoservices are considered smaller siblings of microservices. 
 + Nanoservices are fully discoverable among each other.
 Each one can link with other services to perform additional actions and extend functionality.
-
-As nanoservices are still in their infancy, conservative and large organizations usually avoid them (for now), mostly due to the framework’s uncertain support for scalability. 
-For those who adopt it, one best practice of using the framework is:
-Avoid nanoservices if its use complicates the system that it’s meant to simplify.
-
 
 
 ## By design, nanoservices are:
@@ -39,6 +25,7 @@ Avoid nanoservices if its use complicates the system that it’s meant to simpli
 + Reusable
 + Less complex than microservices
 + Supported by distinct function files for each
+
 
 ## Efficiency of nanoservices
 Nanoservices are considered more efficient than microservices, particularly due to:
@@ -83,7 +70,17 @@ Here are the main differences between APIs and microservices:
 + A microservice is an architectural design that separates portions of a (usually monolithic) application into small, self-containing services.
     
 
-# Microservices
+# Microservices and Nanoservices
+
+As a result, there are conflicting schools of thought around how and when to use microservices.
+First, the mere nature of nanoservices poses the question as to whether they are secured from attack vectors when used extensively in an application.
+Some also consider nanoservices to be an anti-pattern due to their fragmented functionality. This is known to cause maintenance overhead to exceed the value of the framework’s benefits.
+
+Certain use cases highlight that, without thorough due-diligence and efficient planning, random expansion of services may end up making the framework as big and cumbersome as a monolithic architecture.
+
+As nanoservices are still in their infancy, conservative and large organizations usually avoid them (for now), mostly due to the framework’s uncertain support for scalability. 
+For those who adopt it, one best practice of using the framework is:
+Avoid nanoservices if its use complicates the system that it’s meant to simplify.
 
 ## When to use microservices
 
