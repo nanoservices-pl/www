@@ -1,4 +1,7 @@
-# [About nanoservices](https://www.nanoservices.pl/)
+
+![1/cover.png](1/cover.png)
+
+[About nanoservices](https://www.nanoservices.pl/)
 
 ## Hashtags:
 + SOA Service Oriented Architecture
